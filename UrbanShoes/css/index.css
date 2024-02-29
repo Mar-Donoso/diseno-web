@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rokkitt', serif;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101C4E;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+#logoUrban1 {
+    margin-left: 58px;
+    margin-right: 45px;
+    width: 70px;
+    height: 70px;
+}
+#logoMenu{
+    margin-right: 20px;
+    width: 25px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+#logoMenu:hover{
+    transform: scale(1.3);
+}
+#logoBusqueda{
+    width: 25px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+#logoBusqueda:hover{
+    transform: scale(1.2);
+}
+#logoPerfil{
+    margin-right: 13px;
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+#logoPerfil:hover{
+    transform: scale(1.2);
+}
+#logoCompra{
+    width: 33px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+#logoCompra:hover{
+    transform: scale(1.2);
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.container2 > img{
+    width: 100%;
+    height: 90%;
+}
+.container3{
+    background-color: #F4C82A;
+    width: 100%;
+    height: 10px;
+    margin-top: -5.6px;
+}
+.container4{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+.container4 h4{
+    font-family: 'Rokkitt', serif;
+}
+.container4 > div{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 6px;
+    transition: transform 0.3s ease;
+}
+.container4 :nth-child(2){
+    background-color: black;
+    color: white;
+}
+.container4 > div:hover{
+    transform: scale(1.1);
+}
+.product-grid {
+    margin-left: 5px;
+    margin-right: 5px; /*Tocar en caso de que se vean mal las fotos*/
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.product-card1 {
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../img/Airforce\ 1\ Low.jpg);
+    background-size: cover;
+}
+.product-card2 {
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../img/Samba\ OG.jpg);
+    background-size: cover;
+}
+.product-card3 {
+    width: 80%;
+    height: 110px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../img/Adidas\ Campus\ \(2\).jpg);
+    background-size: cover;
+}
+.textoImagenes1{
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+.textoImagenes2{
+    margin-left: 37px;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+#Zapa22{
+    margin-left: 30px;
+}
+.textoImagenes3{
+    margin-left: -8px;
+    margin-right: 2px;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+#Zapa23{
+    margin-left: -7px;
+}
+.container5{
+    margin-left: 39%;
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 8px;
+    background-color: #F4C82A;
+    width: 20%;
+    transition: transform 0.3s ease;
+}
+.container5:hover{
+    transform: scale(1.1);
+}
+.container6{
+    padding-top: 72px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.container6 > img{
+    width: 105%;
+    height: 100%;
+}
+.product-grid2 {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.product-card12 {
+    width: 85%;
+    margin: 10px;
+    height: 140px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../img/Banner\ New\ Balance.jpg);
+    background-size: cover;
+}
+.product-card22 {
+    width: 85%;
+    margin: 10px;
+    height: 140px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../img/Banner\ Adidas.jpg);
+    background-size: cover;
+}
+.product-card32 {
+    width: 85%;
+    margin: 10px;
+    height: 140px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../img/Banner\ Converse.jpg);
+    background-size: cover;
+}
+.product-card12 > p,
+.product-card22 > p,
+.product-card32 > p {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 32%;
+    text-align: center;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: white;
+    width: 20%;
+    transition: transform 0.3s ease;
+}
+.product-card12 > p:hover,
+.product-card22 > p:hover,
+.product-card32 > p:hover {
+    transform: scale(1.1);
+}
+#barra1{
+    background-color: grey;
+    width: 95%;
+    height: 1px;
+}
+#barra2{
+    background-color: grey;
+    width: 95%;
+    height: 1px;
+}
+#barra3{
+    background-color: grey;
+    width: 95%;
+    height: 1px;
+}
+.logosPedidos{
+    text-align: center;
+    padding-top: 15px;
+}
+.logosPedidos > img{
+    width: 30px;
+    height: 30px;
+    display: inline block;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-right: 90px;
+    margin-left: 70px;
+}
+.container7{
+    margin-left: 25px;
+    margin-right: 10px;
+    font-size: 13.5px;
+    padding-top: 5px;
+    display: block;
+}
+.container8{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 9.5px;
+    display: block;
+}
+#menu{
+    padding-top: 10px;
+    overflow: auto;
+    background-color: #101C4E;
+}
+#menuRedSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+#menuRedSocial > div{
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+#tiktok{
+    background-image: url(../img/tiktok\ logo.png);
+    width: 23px;
+    height: 23px;
+    transition: transform 0.3s ease;
+}
+#tiktok:hover{
+    transform: rotate(-45deg) 
+}
+#X{
+    background-image: url(../img/X_logo.png);
+    width: 21px;
+    height: 21px;
+    transition: transform 0.3s ease;
+}
+#X:hover{
+    transform: rotate(-45deg)
+}
+#instagram{
+    background-image: url(../img/IG-white-instagram-logo-transparent-background-7740.png);
+    width: 23px;
+    height: 23px;
+    transition: transform 0.3s ease;
+}
+#instagram:hover{
+    transform: rotate(-45deg)
+}
+#facebook{
+    background-image: url(../img/FacebookLogo.png);
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+}
+#facebook:hover{
+    transform: rotate(-45deg)
+}
+#discord{
+    background-image: url(../img/Discord.png);
+    width: 26px;
+    height: 21px;
+    transition: transform 0.3s ease;
+}
+#discord:hover{
+    transform: rotate(-45deg)
+}
+.menuFinal{
+    background-color: #101C4E;
+    width: 100%;
+    height: 303px;
+    flex-shrink: 0px;
+    padding-top: 10px;
+}
+.logoFinal{
+    width: 100%;
+    height: 69px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.logoFinal:hover{
+    transform: scale(1.1);
+}
+.copyRight{
+    color: #ECEADA;
+    height: 11px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    padding-top: 15px;
+}
+.textoFin{
+    padding-top: 15px;
+    height: 11px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300px;
+}
+a{
+    color: #ECEADA;
+}
+/* Estilos para pantallas más grandes que 600px */
+@media (min-width: 600px) {
+    .container2 {
+            width: 100%;
+            margin: 0 auto;
+        }
+}
